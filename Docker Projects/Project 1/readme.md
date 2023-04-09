@@ -31,7 +31,7 @@ Once you have installed the prerequisite applications, follow these steps to set
 2- Change to the newly created directory using the command cd node-app.
 
 
-3- To open Visual Studio with the directory set to the app's directory, use the command code in the terminal.
+3- To open Visual Studio with the directory set to the app's directory, use the command "code" in the terminal.
 
 
 ####  step 3 :
