@@ -155,13 +155,13 @@ To run the Docker container, use the following command:
 Copy code
 docker run -d --name express-node-app -v <local_dir>:/app:ro -p 4000:4000 express-node
 
-cahange the local_dir to the directory of tha app path 
+change the local_dir to the directory of tha app path 
 
 ![11](https://user-images.githubusercontent.com/88173933/230760680-2c701950-bde2-440e-9ccc-68c92c01da2b.png)
 
 
 
-The Docker container should now be up and running, with our app listening on port 80 and nodemon continuously monitoring for changes. To confirm that the container is running, you can use the command "docker ps". This will display a list of all running containers, and you should see that the only running container is "express-node-app"
+The Docker container should now be up and running, with our app listening on port 4000 and nodemon continuously monitoring for changes. To confirm that the container is running, you can use the command "docker ps". This will display a list of all running containers, and you should see that the only running container is "express-node-app"
 
 To view the HTML display from the container, open your browser and type "localhost:4000" in the address bar. You should be able to see the HTML display from the container.
 
