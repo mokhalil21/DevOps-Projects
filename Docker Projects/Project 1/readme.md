@@ -153,16 +153,16 @@ If you're currently in the same directory as the Dockerfile, you don't need to s
 Running the Docker Container
 To run the Docker container, use the following command:
 
-Copy code
+
 docker run -d --name express-node-app -v <local_dir>:/app:ro -p 4000:4000 express-node
 
-change the local_dir to the directory of tha app path 
+change the local_dir to the directory of tha app 
 
 ![11](https://user-images.githubusercontent.com/88173933/230760680-2c701950-bde2-440e-9ccc-68c92c01da2b.png)
 
 
 
-The Docker container should now be up and running, with our app listening on port 4000 and nodemon continuously monitoring for changes. To confirm that the container is running, you can use the command "docker ps". This will display a list of all running containers, and you should see that the only running container is "express-node-app"
+The Docker container should now be up and running, with our app listening on port 4000 and nodemon continuously monitoring for changes. To confirm that the container is running, you can use the command "docker ps". This will display a list of all running containers, and you should see that the running container is "express-node-app"
 
 To view the HTML display from the container, open your browser and type "localhost:4000" in the address bar. You should be able to see the HTML display from the container.
 
@@ -170,7 +170,7 @@ To view the HTML display from the container, open your browser and type "localho
 ![12](https://user-images.githubusercontent.com/88173933/230760773-32ac8d21-f604-4f60-b8fa-f12af6cd86a4.png)
 
 
-To confirm whether changes made on the local host will be automatically synced to the app running on the container, open the "index.js" file and add a testing message for changes. Make sure to save the changes once you've added the testing message.
+To confirm whether changes made on the local host will be automatically synced to the app running on the container, open the "index.js" file on your local host  and add a testing for changes. Make sure to save the changes once you've added the testing message.
 
 ![13](https://user-images.githubusercontent.com/88173933/230760793-52397552-1553-452a-bb42-d8cdcc372528.png)
 
