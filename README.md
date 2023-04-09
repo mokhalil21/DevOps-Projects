@@ -38,8 +38,9 @@ Once you have installed the prerequisite applications, follow these steps to set
 
 1- Open the Visual Studio terminal.
 
-2- Type the command "node-app npm init" in the terminal and hit enter.
+2- Type the command "npm init" in the terminal and hit enter.
 
+note that npm init is a command that initializes a new Node.js project and creates a package.json file with project metadata and dependencies.
 
 3-  Once the command is executed, you will find a new file called "package.json" created in the directory.
 
